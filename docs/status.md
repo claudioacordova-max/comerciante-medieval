@@ -14,6 +14,7 @@ Lectura mínima para retomar trabajo (workflow v1.2): esta ficha → [decisions.
 | Siguiente hito | Ninguno autorizado |
 | Decisiones abiertas | Discrepancia `needs.progression` del panel experimental, sin corrección autorizada. Ver [decisions.md](decisions.md#4-pendientes-abiertos) |
 | Configuración activa | Dos pueblos, sesión en memoria, panel de inspección cerrado por defecto |
+| Repositorio | Repo Git propio desde SEP-1 (2026-11-13), con el historial extraído del repo `game-factory`. Los hashes citados con fecha anterior son de ese repo; aquí el mismo commit tiene otro hash (buscar por mensaje con `git log --grep`). Despliegue: `npm run build` genera `dist/` estático, sin dependencias de la factory |
 | Comprobaciones | `npm test` (51 casos, última ejecución 2026-10-28) y `npm run build` desde `projects/comerciante-medieval/` |
 | Incidencias conocidas | Discrepancia `needs.progression`; bundle >500 kB; cobertura parcial del DOM. Ninguna con tarea autorizada |
 

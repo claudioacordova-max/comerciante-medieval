@@ -1,8 +1,8 @@
 # Comerciante Medieval — plan vivo
 
-Propósito: autorizaciones, estado y cierres de `projects/comerciante-medieval/`. Revisión: 2026-11-07. Formato compacto según el [workflow v1.2](../../../docs/factory/workflow-v1.md#token-efficiency-v12). Reglas e invariantes: [decisions.md](decisions.md). Evidencia detallada anterior: [plan archivado 2026-10-28](history/implementation-plan-2026-10-28.md) y [plan histórico íntegro](history/implementation-plan-v0.1.md).
+Propósito: autorizaciones, estado y cierres de `projects/comerciante-medieval/`. Revisión: 2026-11-07. Formato compacto según el workflow v1.2 de la Game Factory (sección *Token efficiency*). Reglas e invariantes: [decisions.md](decisions.md). Evidencia detallada anterior: [plan archivado 2026-10-28](history/implementation-plan-2026-10-28.md) y [plan histórico íntegro](history/implementation-plan-v0.1.md).
 
-Leer [status.md](status.md), [spec-v1.md](spec-v1.md), [AGENTS.md](../../../AGENTS.md) y el [workflow](../../../docs/factory/workflow-v1.md) antes de continuar. La consolidación no otorga aprobación nueva; no trasladar casillas históricas a pendientes.
+Leer [status.md](status.md), [spec-v1.md](spec-v1.md), y las reglas de la Game Factory (`AGENTS.md` y `docs/factory/workflow-v1.md` en su repo) antes de continuar. La consolidación no otorga aprobación nueva; no trasladar casillas históricas a pendientes.
 
 ## Estado actual
 
@@ -33,4 +33,4 @@ Leer [status.md](status.md), [spec-v1.md](spec-v1.md), [AGENTS.md](../../../AGEN
 
 ## Registro de la siguiente intervención
 
-Usar la [plantilla de hito](../../../docs/factory/templates/milestone-record.md). Al cerrar, dejar aquí una fila de cierre y un resumen de 5–10 líneas; mover la evidencia detallada a `history/` y llevar a [decisions.md](decisions.md) toda decisión o pendiente nuevo.
+Usar la plantilla de hito de la Game Factory (`docs/factory/templates/milestone-record.md` en el repo de la factory). Al cerrar, dejar aquí una fila de cierre y un resumen de 5–10 líneas; mover la evidencia detallada a `history/` y llevar a [decisions.md](decisions.md) toda decisión o pendiente nuevo.
